@@ -1,0 +1,51 @@
+.ongoingtopic{
+    text-align: center;
+    color: blue;
+}
+
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    font-family: sans-serif;
+  }
+
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+
+  tr:hover {
+    background-color: #e0f7fa;
+  }
+  caption{
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+
+.hobcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hobbies{
+    list-style-type: circle;
+    padding-left: 0;
+}
+ 
+.hobbies li {
+    text-align: left;
+}
